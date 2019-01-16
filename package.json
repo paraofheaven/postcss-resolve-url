@@ -1,6 +1,6 @@
 {
   "name": "postcss-resolve-url",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "PostCSS plugin which resolve relative url problems in css-loader",
   "keywords": [
     "postcss",
@@ -14,7 +14,10 @@
   },
   "author": "paraofheaven <1549930735@qq.com>",
   "license": "MIT",
-  "repository": "paraofheaven/postcss-resolve-url",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paraofheaven/postcss-resolve-url.git"
+  },
   "bugs": {
     "url": "https://github.com/paraofheaven/postcss-resolve-url/issues"
   },
@@ -41,5 +44,6 @@
   },
   "jest": {
     "testEnvironment": "node"
-  }
+  },
+  "main": "index.js"
 }
