@@ -7,19 +7,19 @@
 [ci]:      https://travis-ci.org/paraofheaven/postcss-resolve-url
 
 ```scss
-#a.scss#
+#a.scss
 .foo {
     background-image: url('./a.png')
 }
 ```
 
 ```scss
-#b.scss#
+#b.scss
 @import './a.scss';
 ```
-** Output **
+**Output**
 ```scss
-#b.scss#
+#b.scss
 .foo {
   background-image: url('./a.png')
   // context is a.scss abdolute path
